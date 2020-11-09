@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoralidarDriver", "DoralidarDriverWin\DoralidarDriverWin.vcxproj", "{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Doralidar_GetDistance", "DoralidarApplication_GetDistance\Doralidar_GetDistance.vcxproj", "{9657A9E8-889A-4D82-8022-7AE0600FE453}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6} = {1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoralidarGUISample", "DoralidarGUISample\DoralidarGUISample.vcxproj", "{3178D900-D1EA-4221-B5B0-82E2D05983B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6} = {1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Doralidar_GetDistanceIntensity", "DoralidarApplication_GetDistanceIntensity\Doralidar_GetDistanceIntensity.vcxproj", "{B038A260-169E-49B3-864A-70252D980749}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6} = {1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Debug|Win32.Build.0 = Debug|Win32
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Debug|x64.ActiveCfg = Debug|x64
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Debug|x64.Build.0 = Debug|x64
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Release|Win32.ActiveCfg = Release|Win32
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Release|Win32.Build.0 = Release|Win32
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Release|x64.ActiveCfg = Release|x64
+		{1910FEB5-88B4-4A5A-A776-68DCA4BBC0C6}.Release|x64.Build.0 = Release|x64
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Debug|Win32.Build.0 = Debug|Win32
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Debug|x64.ActiveCfg = Debug|x64
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Debug|x64.Build.0 = Debug|x64
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Release|Win32.ActiveCfg = Release|Win32
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Release|Win32.Build.0 = Release|Win32
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Release|x64.ActiveCfg = Release|x64
+		{9657A9E8-889A-4D82-8022-7AE0600FE453}.Release|x64.Build.0 = Release|x64
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Debug|Win32.Build.0 = Debug|Win32
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Debug|x64.ActiveCfg = Debug|x64
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Debug|x64.Build.0 = Debug|x64
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Release|Win32.ActiveCfg = Release|Win32
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Release|Win32.Build.0 = Release|Win32
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Release|x64.ActiveCfg = Release|x64
+		{3178D900-D1EA-4221-B5B0-82E2D05983B3}.Release|x64.Build.0 = Release|x64
+		{B038A260-169E-49B3-864A-70252D980749}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B038A260-169E-49B3-864A-70252D980749}.Debug|Win32.Build.0 = Debug|Win32
+		{B038A260-169E-49B3-864A-70252D980749}.Debug|x64.ActiveCfg = Debug|x64
+		{B038A260-169E-49B3-864A-70252D980749}.Debug|x64.Build.0 = Debug|x64
+		{B038A260-169E-49B3-864A-70252D980749}.Release|Win32.ActiveCfg = Release|Win32
+		{B038A260-169E-49B3-864A-70252D980749}.Release|Win32.Build.0 = Release|Win32
+		{B038A260-169E-49B3-864A-70252D980749}.Release|x64.ActiveCfg = Release|x64
+		{B038A260-169E-49B3-864A-70252D980749}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
